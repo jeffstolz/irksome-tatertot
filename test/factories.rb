@@ -1,6 +1,4 @@
-FactoryGirl.define do  factory :section do
-    
-  end
+FactoryGirl.define do  
 
   factory :user do
     email "jstolz123@gmail.com"
@@ -11,4 +9,8 @@ FactoryGirl.define do  factory :section do
     description "Sample description"
     cost 2.0
   end  
+  factory :section do
+    title "Sample section"
+  end  
+   
 end
