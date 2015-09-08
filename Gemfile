@@ -20,7 +20,7 @@ gem 'devise'
 
 gem 'simple_form'
 
-gem 'factory_girl'
+gem 'factory_girl_rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
