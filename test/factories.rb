@@ -1,8 +1,5 @@
-FactoryGirl.define do  factory :lesson do
-    
-  end
+FactoryGirl.define do
   
-
   factory :user do
     email "jstolz123@gmail.com"
     password "noneyabusiness"
@@ -14,6 +11,10 @@ FactoryGirl.define do  factory :lesson do
   end  
   factory :section do
     title "Sample section"
+  end  
+  factory :lesson do
+    title "Sample lesson"
+    subtitle "Sample subtitle"
   end  
    
 end
