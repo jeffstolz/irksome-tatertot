@@ -11,4 +11,7 @@ end
 
 class ActionController::TestCase
   include Devise::TestHelpers
+  def simple_user
+    @simple_user ||= FactoryGirl.create(:user)
+  end
 end
